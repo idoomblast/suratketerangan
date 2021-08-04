@@ -1,0 +1,25 @@
+{
+    "name": "idoomblast/suratketerangan",
+    "description": "Addon Surat Keterangan untuk Ultimate POS",
+    "type": "library",
+    "authors": [
+        {
+            "name": "idoom",
+            "email": "idoom.molor@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Idoomblast\\SuratKeterangan\\SuratKeteranganServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Idoomblast\\SuratKeterangan\\": "src/"
+        }
+    }
+}
